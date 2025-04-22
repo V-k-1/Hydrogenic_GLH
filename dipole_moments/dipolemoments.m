@@ -8,8 +8,8 @@ Rho::usage = "Rho[\[Kappa]] gives the density of states at \[Kappa]. g**[*][*,\[
 
 Begin["`Private`"];
 Z=1;
-a0 = 5.29177210544*10^-11;
-Eh=4.3597447222060*10^\[Minus]18;
+a0 = 1;
+Eh=1;
 Ry =Eh/2;
 (* Input validation *)
 validateInput[n_, \[Kappa]_] := (
